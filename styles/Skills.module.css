@@ -1,0 +1,159 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.h2ele{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.text1{
+    justify-content: center;
+    text-align: center;
+    line-height: 0%;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(112, 111, 111);
+}
+
+.container3{
+    /* row-gap: 0; */
+    margin-bottom: 10px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.skill_arrow{
+   transition: .4s; 
+   margin-right: 90px;
+}
+.skills_close .skilllist{
+    height: 0;
+    overflow: hidden;
+}
+
+.skills_open .skilllist{
+  height: max-content;
+  margin-bottom: 30px;
+  overflow: visible;
+}
+
+.skills_open .skill_arrow{
+    transform: rotate(-180deg);
+}
+
+.title{
+    font-size: 25px;
+    /* margin-top: 10px; */
+    /* margin-left: 110px; */
+    margin-right: 10px;
+    color: rgb(82, 81, 81);
+    font-weight: 500;
+    
+}
+/* .skilllist{
+    margin-left: 20px;
+} */
+
+.name{
+   font-size: 20px;
+   font-family: 600; 
+ 
+}
+.number{
+    font-size: 17px;
+    color: rgb(121, 118, 118);
+    /* margin-top: 25px; */
+}
+.skilltitle{
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 10%; */
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    align-items: center;
+}
+
+.bar{
+    height: 6px;
+    border-radius:.25rem;
+    width: 72%;
+    background-color: #e6c6f5;
+    
+}
+.html{
+    height: 6px;
+    border-radius:.25rem;
+    width: 91%;
+    background-color: #743ff1;
+}
+.css{
+    height: 6px;
+    border-radius:.25rem;
+    width: 81%;
+    background-color: #743ff1; 
+}
+.js{
+    height: 6px;
+    border-radius:.25rem;
+    width: 71%;
+    background-color: #743ff1;
+}
+.react{
+    height: 6px;
+    border-radius:.25rem;
+    width: 71%;
+    background-color: #743ff1;
+}
+.next{
+    height: 6px;
+    border-radius:.25rem;
+    width: 51%;
+    background-color: #743ff1;
+}
+.boot{
+    height: 6px;
+    border-radius:.25rem;
+    width: 81%;
+    background-color: #743ff1;
+}
+.tail{
+    height: 6px;
+    border-radius:.25rem;
+    width: 71%;
+    background-color: #743ff1;
+}
+.fire{
+    height: 6px;
+    border-radius:.25rem;
+    width: 71%;
+    background-color: #743ff1;
+}
+
+@media screen and (max-width: 767px){
+   .h2ele{
+       font-size: 45px;
+   } 
+
+   .text1{
+       font-size: 13px;
+   }
+   .title{
+       font-size: 20px;
+   }
+   .name{
+       font-size: 18px;
+   }
+   .number{
+       font-size: 14px;
+   }
+}

@@ -1,116 +1,300 @@
-.container {
-  padding: 0 2rem;
-}
-
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+.container1{
+  margin-top: 200px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.footer {
+.contleft{
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+  margin-left: 10px;
+}
+.left{
+  margin-top: 80px;
+  margin-right: 150px;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.title{
+  font-size: 79px;
+  color: #743ff1;
+}
+.text{
+  font-size: 27px;
+  font-weight: 500;
+  position: absolute;
+  top:330px;
+  color: rgb(151, 148, 148);
+}
+.para{
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(175, 170, 170);
+  position: absolute;
+  top: 370px;
+
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
+.btn{
+  background: #743ff1;
+  border: none;
+  width: 150px;
+  padding: 18px 17px 18px 10px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 10px;
+  position: absolute;
+  top:490px;
+  cursor: pointer;
   text-align: center;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.btn:hover{
+  background-color: #692ff0;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.img{
+  border-radius: 50%;
 }
 
-.grid {
+.contright{
+  margin-top: 40px;
+}
+
+.left{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  flex-direction: column;
+  font-size: 1.8rem;
+  
+}
+.git{
+  color: #743ff1;
+}
+.din{
+  color: #743ff1;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
+@media screen and (min-width: 280px) and (max-width: 390px){
+  .container1{
+    margin-top: 0px;
+    display: flex;
+  }
+  .contleft{
+    margin-left: 5px;
+  }
+  .title{
+   position: absolute;
+   top: 66px;
+   font-size: 35px;
+   left: 50px;
+  }
+  .text{
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top:280px;
+    left: 70px;
+    color: rgb(128, 126, 126);
+  }
+  .img{
+    width: 112px;
+    height: 125px;
+    position: absolute;
+    top: 140px;
+    right: 35%;
+    border-radius: 50%;
+  }
+  .para{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(175, 170, 170);
+    position: absolute;
+    top: 310px;
+    left: 70px;
+  }
+  .btn{
+    background: #743ff1;
+    border: none;
+    width: 120px;
+    padding: 18px 17px 18px 10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 10px;
+    position: absolute;
+    top:410px;
+    right: 38%;
+  }
+  
+  
+  .left{
+    display: flex;
     flex-direction: column;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 25px;
+    top: 100px;
+  }
+  .git{
+    color: #743ff1;
+  }
+  .din{
+    color: #743ff1;
+  }
+  .send{
+    position: absolute;
+    top: 17px;
+    left: 105px;
+  }
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 767px){
+  .container1{
+    margin-top: 0px;
+    display: flex;
+  }
+  .contleft{
+    margin-left: 30px;
+  }
+  .title{
+   position: absolute;
+   top: 55px;
+   font-size: 55px;
+   left: 90px;
+  }
+  .text{
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    top:370px;
+    left: 90px;
+    color: rgb(128, 126, 126);
+  }
+  .img{
+    width: 182px;
+    height: 195px;
+    position: absolute;
+    top: 160px;
+    right: 35%;
+  }
+  .para{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(175, 170, 170);
+    position: absolute;
+    top: 425px;
+    left: 90px;
+  }
+  .btn{
+    background: #743ff1;
+    border: none;
+    width: 140px;
+    padding: 18px 17px 18px 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 10px;
+    position: absolute;
+    top:530px;
+    right: 43%;
+  }
+  
+  
+  .left{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 25px;
+    top: 100px;
+  }
+  .git{
+    color:#743ff1;
+  }
+  .din{
+    color: #743ff1;
+  }
+  .send{
+    position: absolute;
+    top: 24px;
+    left: 115px;
+    
+  }
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+  .container1{
+    margin-top: 0px;
+    display: flex;
+  }
+  .contleft{
+    margin-left: 30px;
+  }
+  .title{
+    position: absolute;
+    top: 135px;
+    font-size: 60px;
+    left: 90px;
+   }
+  .text{
+    font-size: 22px;
+    font-weight: 400;
+    position: absolute;
+    top:210px;
+    left: 90px;
+    color: rgb(128, 126, 126);
+  }
+  .img{
+    width: 262px;
+    height: 255px;
+    position: absolute;
+    top: 160px;
+   right: 40px;
+   border-radius: 50%;
+  }
+  .para{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(175, 170, 170);
+    position: absolute;
+    top: 245px;
+    left: 90px;
+  }
+  .btn{
+    background: #743ff1;
+    border: none;
+    width: 130px;
+    padding: 18px 19px 18px 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 10px;
+    position: absolute;
+    top:350px;
+    right: 71%;
+  }
+  
+  
+  
+  .left{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 23px;
+    top: 100px;
+  }
+  .git{
+    color: #743ff1;
+  }
+  .din{
+    color: #743ff1;
+  }
+  .send{
+    position: absolute;
+    top: 20px;
+    left: 103px;
   }
 }
