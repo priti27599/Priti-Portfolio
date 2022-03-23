@@ -3,11 +3,11 @@ import { AiOutlineDown } from 'react-icons/ai';
 import { useState } from 'react';
 
 const Skills = () => {
-  const [isOpen, setIsOpen] = useState(false);
+//   const [isOpen, setIsOpen] = useState(false);
 
   // const openMenu = () => setIsOpen(!isOpen);
-  const closeMenu = () => setIsOpen(!isOpen);
-  const openMenu = () => setIsOpen(!isOpen);
+//   const closeMenu = () => setIsOpen(!isOpen);
+//   const openMenu = () => setIsOpen(!isOpen);
 
   return (
     <div className={styles.skill}>
@@ -17,18 +17,13 @@ const Skills = () => {
       <div className={styles.container3}>
         <div className={styles.main}>
           <div className={(styles.skillcontent, styles.skills_close)}>
-            <div className={styles.header} onClick={closeMenu}>
+            <div className={styles.header} >
               <h1 className={styles.title}>Frontend developer</h1>
               <AiOutlineDown className={styles.skill_arrow} />
             </div>
 
             <div
               className={styles.skilllist}
-              className={
-                isOpen
-                  ? (styles.skills_open)
-                  : styles.skills_close
-              }
             >
               <div className={styles.data}>
                 <div className={styles.skilltitle}>
@@ -97,18 +92,14 @@ const Skills = () => {
           </div>
           <div className={styles.main1}>
             <div className={(styles.skillcontent, styles.skills_close)}>
-              <div className={styles.header} onClick={openMenu}>
+              <div className={styles.header} >
                 <h1 className={styles.title}>Backend developer</h1>
                 <AiOutlineDown className={styles.skill_arrow} />
               </div>
 
               <div
                 className={styles.skilllist}
-                className={
-                  isOpen
-                    ? (styles.skills_open)
-                    : styles.skills_close
-                }
+              
               >
                 <div className={styles.data}>
                   <div className={styles.skilltitle}>
@@ -123,18 +114,14 @@ const Skills = () => {
             </div>
 
             <div className={(styles.skillcontent, styles.skills_close)}>
-              <div className={styles.header} onClick={openMenu}>
+              <div className={styles.header} >
                 <h1 className={styles.title}>Design</h1>
                 <AiOutlineDown className={styles.skill_arrow} />
               </div>
 
               <div
                 className={styles.skilllist}
-                className={
-                  isOpen
-                    ? (styles.skills_open)
-                    : styles.skills_close
-                }
+               
               >
                 <div className={styles.data}>
                   <div className={styles.skilltitle}>
