@@ -23,7 +23,7 @@ export default function Home() {
           </Link>
         </div>
         <div className={styles.right}>
-          <h1 className={styles.title}>Hi, I'm Priti</h1>
+          <h1 className={styles.title}>Hi, I&apos;m Priti</h1>
           <h3 className={styles.text}>Frontend Developer</h3>
           <p className={styles.para}>
             I love working on Frontend web projects. <br /> I have diverse set
