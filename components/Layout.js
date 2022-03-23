@@ -1,8 +1,8 @@
-import Footer from './Footer';
+// import Footer from './Footer';
 import Navbar from './Navbar';
-import { createMuiTheme, ThemeProvider } from '@material-ui/core';
-import { useContext } from 'react';
-import { Store } from '../utils/Store';
+// import { createMuiTheme, ThemeProvider } from '@material-ui/core';
+// import { useContext } from 'react';
+// import { Store } from '../utils/Store';
 
 const Layout = ({ children }) => {
   // const theme = createMuiTheme({
