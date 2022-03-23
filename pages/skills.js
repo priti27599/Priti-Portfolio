@@ -26,7 +26,7 @@ const Skills = () => {
               className={styles.skilllist}
               className={
                 isOpen
-                  ? (styles.skills_open, styles.skilllist)
+                  ? (styles.skills_open)
                   : styles.skills_close
               }
             >
@@ -132,7 +132,7 @@ const Skills = () => {
                 className={styles.skilllist}
                 className={
                   isOpen
-                    ? (styles.skills_open, styles.skilllist)
+                    ? (styles.skills_open)
                     : styles.skills_close
                 }
               >
