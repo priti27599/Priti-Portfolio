@@ -1,6 +1,6 @@
 import styles from '../styles/Skills.module.css';
 import { AiOutlineDown } from 'react-icons/ai';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 const Skills = () => {
 //   const [isOpen, setIsOpen] = useState(false);
