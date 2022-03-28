@@ -43,7 +43,7 @@
 .skills_open .skilllist{
   height: max-content;
   margin-bottom: 30px;
-/*   overflow: visible; */
+  overflow: visible;
 }
 
 .skills_open .skill_arrow{
